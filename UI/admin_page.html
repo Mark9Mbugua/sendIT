@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SendIt-Admin</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Righteous" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="top">SendIT/Admin</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="pdo_listview.html">All Deliveries</a></li>
+                <li><a href="signin.html">Log Out</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="createform">
+        <div class="centalign">
+            <form>
+                <div class="container">
+                    <h1 class="pgheading">Mark Mbugua's Parcel</h1>
+
+                    <input type="value" placeholder="Order Id:2365" required><br>
+
+                    <input type="value" placeholder="Parcel Name: Leather Sofa Set" required><br>
+
+                    <input type="value" placeholder="Weight: 350kg" required><br>
+
+                    <input type="value" placeholder="Price: Ksh.500,000" required><br>
+
+                    <input type="text" placeholder="Pickup Location: CBD" required><br>
+
+                    <input type="text" placeholder="Destination: Kahawa West" required><br>
+
+                    <input type="text" placeholder="Cosignee'Name: Mark Mbugua" required><br>
+
+                    <input type="text" placeholder="Consignee's Phone Number: +254712340908" required><br>
+
+                    <input type="text" placeholder="Current Location: Ngara" required><br>
+
+                    <div class="status">
+                        <select>
+                            <option value="0">Update Status</option>
+                            <option value="1">Delivered</option>
+                            <option value="2">In Transit</option>
+                        
+                        </select>
+                    </div>
+
+
+                    <div class="create">
+                        <button type="submit" class="createbtn">Update</button>
+                        <button type="button" class="cancel">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <p>Powered by Infispace</p>
+            <p>Copyright SendIT 2018</p>
+        </footer>
+    </div>
+</body>
+
+</html>
