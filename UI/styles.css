@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0 auto;
 }
 
@@ -288,7 +288,7 @@ footer {
 }
 
 .cancfooter {
-    margin-top: 200px;
+    margin-top: 220px;
 }
 
 .allorderstb {
@@ -304,3 +304,32 @@ footer {
 td {
     width: 125px;
 }
+
+.home {
+    margin: 150px auto;
+}
+
+.home p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.homebutton {
+    margin-top: 50px;
+}
+
+.homebutton button {
+    width: 220px;
+    height: 100px;
+    background-color: #105ad1;
+    padding: 15px 15px;
+    text-align: center;
+    font size: 16px;
+    border-radius: 15px;
+    color: white;
+}
+
+.homebutton button:hover {
+    background-color: #56545e;
+    color: white;

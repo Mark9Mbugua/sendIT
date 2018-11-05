@@ -16,14 +16,14 @@
             <ul>
                 <li><a class="active" href="pdo_listview.html">All Deliveries</a></li>
                 <li><a href="create_pdo.html">Create Order</a></li>
-                <li><a href="index.html">User Profile</a></li>
+                <li><a href="users_profile.html">User Profile</a></li>
                 <li><a href="signin.html">Log Out</a></li>
             </ul>
 
         </nav>
     </header>
     <div class="createform">
-        <form>
+        <form action="pdo_listview.html" method="GET">
             <div class="container">
                 <h1 class="pgheading">Create a Order</h1>
                 <p>TO create a new order, kindly fill in this form</p>
@@ -46,7 +46,7 @@
 
                 <div class="create">
                     <button type="submit" class="createbtn">Create</button>
-                    <button type="button" class="cancel">Cancel</button>
+                    <button type="button" class="cancel" formaction="pdo_listview.html">Cancel</button>
                 </div>
         </form>
         </div>
