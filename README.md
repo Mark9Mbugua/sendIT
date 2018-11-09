@@ -1,15 +1,39 @@
-**SendIT**
+# SendIT UI
 
-SendIT provides courier services that assist users in delivering parcels to their preferred destinations.
-Quotations are formulated based on the weight of the parcel.
+SendIT is a courier service that helps users deliver parcels to different destinations. SendIT provides courier quotes based on weight categories.
 
-**Prerequisites**
-a.A web browser that is simple, fast and easy to install, preferrably Chrome. It should be updated to the 
-latest version.
--To download go to https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwsfreBRB9EiwAikSUHQlILpD2Hl3OnWAz_I5LvqqE0WJC7qbVux--2yp8AL4zXJkF1LTVvhoCMkcQAvD_BwE&gclsrc=aw.ds
 
-b. Visual Studio Code 
-- To download go to https://visualstudio.microsoft.com/downloads/
+## Getting Started
+Clone or download the project from git either via terminal using the commands 
+* git clone :https://github.com/Mark9Mbugua/SendIT.git
+* Download zip file from the right hand corner
+		 
 
-c. SysGit
--SysGit is inbuilt in Linux systems but for Windows users,to download go to https://gitforwindows.org/
+## Application Features
+
+1. Create a parcel delivery order.
+2. Admin account for managing deliveries by users.
+
+<br>
+
+**Users can do the following**
+
+* Users can create an account and log in.
+* Users can request a parcel delivery.
+* Users can cancel a delivery request.
+* Users can view all deliveries that they have requested.
+* Users can view a specific delivery. 
+
+
+### Prerequisites
+
+Please make sure you have a browser installed on your computer if you want to be able to check all files and see how the user interface looks like.
+
+
+## Running 
+
+* git clone https://github.com/Mark9Mbugua/SendIT.git
+* cd into folder
+* open a web browser and drag the index file to the url section.
+
+
