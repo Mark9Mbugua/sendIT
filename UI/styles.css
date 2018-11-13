@@ -11,51 +11,39 @@ body {
 
 header {
     position: relative;
-    display: block;
     max-width: 100%;
-    height: 100%;
-    margin: 10 auto;
-    padding: 1rem 5rem;
-    background-color: #3a3737;
+    height: 50%;
+    padding: 15px 15px;
+    background-color: #a02c2c;
     color: #fff;
 }
 
 header h1 {
     line-height: 45px;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 32px;
+    margin: 10px auto;
     display: inline;
 }
 
 nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
     float: right;
     display: inline;
 }
 
 nav li {
-    position: relative;
     display: inline-block;
-    list-style-type: none;
-    font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
-    color: #222;
     padding: 15px 15px;
 }
 
 nav li a {
-    position: relative;
     display: block;
     padding: 10px 15px;
     text-decoration: none;
     color: white;
 }
 
-nav li a:hover,
-nav li a:focus {
-    text-decoration: none;
-    background-color: #105ad1;
+nav li a:hover {
+    background-color: #34383d;
 }
 
 .title {
@@ -64,7 +52,7 @@ nav li a:focus {
     font-size: 30px;
 }
 
-orders {
+.orders {
     margin-top: 30px;
     align-content: center;
 }
@@ -105,8 +93,8 @@ button {
     border: none;
     display: inline-block;
     font-size: 24px;
-    width: 120px;
-    padding: 15px 15px;
+    width: 150px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5%;
 }
@@ -140,16 +128,16 @@ input[type=password],
 input[type=value] {
     width: 30%;
     padding: 15px 15px;
-    margin: 8px auto;
+    margin: 10px auto;
     box-sizing: border-box;
     background-color: white;
+    border-radius: 5%
 }
 
 input[type=text]:focus,
 input[type=password]:focus,
 input[type=value]:focus {
-    background-color: rgb(238, 229, 229);
-    outline: none;
+    background-color: #d3cfdf;
 }
 
 .login,
@@ -236,14 +224,6 @@ input[type=value]:focus {
     padding: 15px;
 }
 
-.status select-selected {
-    background-color: #3a3737;
-}
-
-.status select-selected.select-arrow-active:after {
-    top: 10px;
-}
-
 .details-table {
     border: 1px solid #bfbcca;
     border-radius: 3%;
@@ -322,14 +302,14 @@ td {
 .homebutton button {
     width: 220px;
     height: 100px;
-    background-color: #105ad1;
+    background-color: #56545e;
     padding: 15px 15px;
     text-align: center;
-    font size: 16px;
+    font-size: 32px;
     border-radius: 15px;
     color: white;
 }
 
 .homebutton button:hover {
-    background-color: #56545e;
+    background-color: #a02c2c;
     color: white;
