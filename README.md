@@ -31,6 +31,7 @@ Clone or download the project from git either via terminal using the commands
 Please make sure you have a browser installed on your computer if you want to be able to check all files and see how the user interface looks like.
 
 
+
 ## Running 
 
 * git clone [SendIT UI](https://github.com/Mark9Mbugua/SendIT.git)
