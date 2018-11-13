@@ -5,9 +5,9 @@ SendIT is a courier service that helps users deliver parcels to different destin
 
 ## Getting Started
 Clone or download the project from git either via terminal using the commands 
-* git clone :https://github.com/Mark9Mbugua/SendIT.git
+* git clone [SendIT UI] (https://github.com/Mark9Mbugua/SendIT.git)
 * Download zip file from the right hand corner
-		 
+* To access the website, go to [SendIT gh-pages] (https://mark9mbugua.github.io/sendIT/UI)		 
 
 ## Application Features
 
@@ -32,10 +32,9 @@ Please make sure you have a browser installed on your computer if you want to be
 
 ## Running 
 
-* git clone https://github.com/Mark9Mbugua/SendIT.git
+* git clone [SendIT UI] (https://github.com/Mark9Mbugua/SendIT.git)
 * cd into folder
 * open a web browser and drag the index file to the url section.
 
-# Testing 
-To access the website, go to https://mark9mbugua.github.io/sendIT/UI/
+
 
