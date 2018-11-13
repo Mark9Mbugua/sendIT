@@ -36,4 +36,6 @@ Please make sure you have a browser installed on your computer if you want to be
 * cd into folder
 * open a web browser and drag the index file to the url section.
 
+# Testing 
+To access the website, go to https://mark9mbugua.github.io/sendIT/UI/
 
