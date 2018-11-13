@@ -9,6 +9,7 @@ Clone or download the project from git either via terminal using the commands
 * Download zip file from the right hand corner
 * To access the website, go to [SendIT gh-pages] (https://mark9mbugua.github.io/sendIT/UI)		 
 
+
 ## Application Features
 
 1. Create a parcel delivery order.
