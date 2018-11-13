@@ -140,22 +140,6 @@ input[type=value]:focus {
     background-color: #d3cfdf;
 }
 
-.login,
-.signup,
-.createbtn,
-.updatebtn {
-    background-color: green;
-    color: white;
-    opacity: 0.8;
-}
-
-.signinbtn,
-.createbtn,
-.signbtns,
-.updatebtns {
-    margin-top: 15px;
-}
-
 .pswd {
     margin-top: 20px;
 }
@@ -313,3 +297,19 @@ td {
 .homebutton button:hover {
     background-color: #a02c2c;
     color: white;
+}
+
+.submit, .cancel {
+    background-color: #56545e;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.cancel:hover {
+    background-color: red;
+}
+
+.submit:hover {
+    background-color: green
+}
